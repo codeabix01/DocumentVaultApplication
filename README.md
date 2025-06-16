@@ -74,3 +74,5 @@ DocumentVault/
 │       ├── service
 │       └── controller
 ```
+
+![img.png](img.png "Download through JWT")
