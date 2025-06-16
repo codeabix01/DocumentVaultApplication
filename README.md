@@ -31,7 +31,7 @@ This project is a secure document storage and retrieval service with user authen
 ✅ H2 console enabled
 
 #### Prompt 4:
-> "Add endpoints for uploading and downloading documents."
+> "Generate a Spring Boot DocumentController class with endpoints for uploading and downloading files. Use Swagger annotations for API documentation. The upload endpoint should accept a MultipartFile and save it to a local directory named uploads. The download endpoint should retrieve a file by its name from the same directory and return it as a response. Include error handling for missing files and server errors. Ensure the upload directory is created using a @PostConstruct method."
 
 ✅ DocumentController with /upload and /download/{filename} endpoints  
 ✅ Upload returns filename; download returns file as Resource
@@ -86,6 +86,21 @@ curl --location 'http://localhost:8080/documents/upload' \
 ###MAKE SURE TO ADD GENERATED TOKEN WHILE REGISTERING.
 
 ## IMAGES TO REFER THE WORKING CODE
+
+## SWAGGER VIEW
+
+![SWAGGER_UI.png](SWAGGER_UI.png "SWAGGER_UI")
+
+
+## REGISTER USER
+
+![REGISTER_USER.png](REGISTER_USER.png "REGISTER ")
+
+
+## LOGIN USER
+
+![LOGIN_USER.png](LOGIN_USER.png "LOGIN")
+
 
 ## DOWNLOAD
 
