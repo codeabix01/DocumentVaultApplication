@@ -75,4 +75,25 @@ DocumentVault/
 │       └── controller
 ```
 
-![img.png](img.png "Download through JWT")
+### POSTMAN CURL FOR UPLOAD 
+
+curl --location 'http://localhost:8080/documents/upload' \
+--header 'Authorization: Bearer ' \
+--header 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYW5hIiwiaWF0IjoxNzUwMDU2ODExLCJleHAiOjE3NTAxNDMyMTF9._aAzK-_gs2-hv0r_FBYe3J_q_H1M6H2dOzblyalDjpc;' \
+--header 'Cookie: JSESSIONID=911090D99D0C84B43AF2BB58DA2A6C88' \
+--form 'file=@"postman-cloud:///1f04860e-578e-40d0-b321-181ad37ed579"'
+
+###MAKE SURE TO ADD GENERATED TOKEN WHILE REGISTERING.
+
+## IMAGES TO REFER THE WORKING CODE
+
+## DOWNLOAD
+
+![Downloaded_JWT.png](Downloaded_JWT.png "Download through JWT")
+
+## UPLOAD
+
+![UPLOAD_JWT.png](UPLOAD_JWT.png "UPLOAD through JWT")
+
+
+
